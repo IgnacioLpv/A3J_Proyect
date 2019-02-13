@@ -1,0 +1,228 @@
+/*
+ * Start Bootstrap - Half Slider (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700');
+html,
+body {
+    height: 100%;
+    background-color: #f5f5f5;
+    font-family: 'Josefin Sans 600', sans-serif;
+}
+
+/* You can change the height of the carousel by changing the height in the class below. It is set to 50% by default, but can be any height! */
+
+.carousel {
+    height: 50%;
+}
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    margin: 50px 0;
+}
+body {
+     height: 100%;
+     background-color: #f5f5f5;
+     font-family: 'Josefin Sans 600', sans-serif;
+ }
+.navbar, .dropdown-menu{
+    background:#FFFFFF;
+    border: none;
+
+}
+
+.nav>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .dropdown-menu>li>a, .dropdown-menu>li{
+    border-bottom: 3px solid transparent;
+}
+.nav>li>a:focus, .nav>li>a:hover,.nav .open>a, .nav .open>a:focus, .nav .open>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+    border-bottom: 3px solid transparent;
+    background-color: #FFFFFF;
+}
+.navbar a, .dropdown-menu>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .navbar-toggle{
+    color: #204B6B;
+}
+.dropdown-menu{
+    -webkit-box-shadow: none;
+    box-shadow:none;
+}
+
+.nav li:hover:nth-child(8n+1), .nav li.active:nth-child(8n+1){
+    border-bottom: #5FB0C4 3px solid;
+}
+.nav li:hover:nth-child(8n+2), .nav li.active:nth-child(8n+2){
+    border-bottom: #5FB0C4 3px solid;
+}
+.nav li:hover:nth-child(8n+3), .nav li.active:nth-child(8n+3){
+    border-bottom: #5FB0C4 3px solid;
+}
+.nav li:hover:nth-child(8n+4), .nav li.active:nth-child(8n+4){
+    border-bottom: #5FB0C4 3px solid;
+}
+.nav li:hover:nth-child(8n+5), .nav li.active:nth-child(8n+5){
+    border-bottom: #5FB0C4 3px solid;
+}
+.nav li:hover:nth-child(8n+6), .nav li.active:nth-child(8n+6){
+    border-bottom: #5FB0C4 3px solid;
+}
+.nav li:hover:nth-child(8n+7), .nav li.active:nth-child(8n+7){
+    border-bottom: #5FB0C4 3px solid;
+}
+.nav li:hover:nth-child(8n+8), .nav li.active:nth-child(8n+8){
+    border-bottom: #5FB0C4 3px solid;
+}
+
+.navbar-toggle .icon-bar{
+    color: #5FB0C4;
+    background: #000000;
+}
+#LineaSuperior{
+    background-color: #5FB0C4;
+}
+#myCarousel{
+    margin-top: 100px;
+}
+.fill{
+    background-size: cover;
+
+}
+#Servicios p{
+    height:40px;
+    background-color:#f5f5f5;
+}
+.col-xs-12.col-sm-6.col-md-4{
+    text-align:center;
+    background-color:#FFFFFF;
+    border-radius: 20px;
+}
+
+.container-fluid{
+    background-color:#FFFFFF;
+    text-align: center;
+}
+footer{
+    background-color:#204B6B;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+table {
+    margin-left: 25px;
+    border-color:#5FB0C4;
+    float:left;
+}
+td{
+    border-bottom: #5FB0C4 1px solid;
+
+}
+.col-xs-12.col-sm-6.col-md-4 {
+    margin-top:55px;
+}
+
+#tituloContenido p{
+    background-color:#5FB0C4;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top:70px;
+}
+.imagenTitulo{
+    text-align: center;
+    margin-top:-55px;
+}
+.carousel-caption{
+    color: #000000;
+}
+img[src="images/finanzas.jpg"] {
+    margin-top:15px;
+}
+img[src="images/gestion%20de%20personas.jpg"] {
+    margin-top:15px;
+}
+img[src="images/negocio.jpg"] {
+    margin-top:15px;
+}
+img[src="images/internacional.jpg"] {
+    margin-top:15px;
+}
+img[src="images/emprendedor.jpg"] {
+    margin-top:15px;
+}
+img[src="images/economico_financiero.jpg"] {
+    margin-top:15px;
+}
+.eslogan{
+    background-color: #f5f5f5;
+    color: #204B6B;
+    text-align:center;
+    font-size:40px;
+    font-family: 'Josefin Sans 600', sans-serif;
+    margin-top:70px;
+}
+.product-info{
+    border:#204B6B 2px solid;
+}
+.copyright{
+    right:0;
+    bottom:0;
+}
+.row{
+    border-top: #204B6B solid 2px;
+}
+.navbar-header .navbar-toggle .icon-bar{
+    background-color: #000000;
+}
+.navbar-header .navbar-toggle :hover{
+    background-color: #FFFFFF;
+}
+#overbox3 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+    display: block;
+}
+#infobox3 {
+    margin: auto;
+    position: relative;
+    top: 0;
+    height: 58px;
+    width: 100%;
+    text-align:center;
+    background-color: #eeeeee;
+}
+#infobox3 p {
+    line-height:58px;
+    font-size:12px;
+    text-align:center;
+}
+#infobox3 p a {
+    margin-right:5px;
+    text-decoration: underline;
+}
+.btn {
+    border-radius:0px;
+}
+.btn-group-lg>.btn, .btn-lg{
+    border-radius:0px;
+}
+.col-xs-3{
+    margin-top: 60px;
+}
